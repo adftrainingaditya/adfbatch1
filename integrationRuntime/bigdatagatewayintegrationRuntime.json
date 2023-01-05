@@ -1,0 +1,6 @@
+{
+	"name": "bigdatagatewayintegrationRuntime",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}

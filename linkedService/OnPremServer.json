@@ -1,0 +1,17 @@
+{
+	"name": "OnPremServer",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "FileServer",
+		"typeProperties": {
+			"host": "\\\\adflabvm\\databricks",
+			"userId": "developer",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI5Y2I2MzkyOC00Zjg4LTRjOWYtOGI4OS0yMDU1Y2MyMjQ5NzgiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "bigdatagatewayintegrationRuntime",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

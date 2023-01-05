@@ -1,0 +1,9 @@
+{
+	"name": "CaseStudy-adityak-ADF",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ac06f0c4-6bfb-4b38-89af-dbfe0b846e05",
+		"tenantId": "481e40a2-ac39-49b9-a812-e82af55e5c97"
+	}
+}
